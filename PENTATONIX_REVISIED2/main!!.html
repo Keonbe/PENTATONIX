@@ -23,6 +23,10 @@ body#premium{
     }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,body{
     padding:0;
     margin:0;
@@ -1398,7 +1402,7 @@ img {vertical-align: middle;}
 </li>
 
 <li class="site-nav--has-dropdown" aria-haspopup="true">
-<a href="/collections/instruments">CATALOG<span class="icon-fallback-text">
+<a>CATALOG<span class="icon-fallback-text">
 <span class="icon icon-arrow-down" aria-hidden="true"></span>
 </span>
 </a>
@@ -1408,15 +1412,17 @@ img {vertical-align: middle;}
 
 <ul class="grandchild">
 
-<li ><a href= "/collections/st">Stratocaster</a></li>
+<li ><a href= "#1">Stratocaster</a></li>
 
-<li ><a href= "/collections/tl">Telecaster</a></li>
+<li ><a href= "#2">Telecaster</a></li>
 
-<li ><a href= "/collections/single-cut">Jazzmaster</a></li>
+<li ><a href= "#3">Jazzmaster</a></li>
 
-<li ><a href= "/collections/double-cut">Les Paul</a></li>
+<li ><a href= "#4">Les Paul</a></li>
 
-<li ><a href= "/collections/offset">Mustang</a></li>
+<li ><a href= "#5">Mustang</a></li>
+
+<li ><a href= "#6">Starcaster</a></li>
 
 </ul>
 
@@ -1503,9 +1509,61 @@ function showSlides(n) {
 
 
 
+
+
+.ContainerProduct1{
+    position:absolute;
+    
+}
+
+.ContainerProduct2{
+    position:absolute;
+    left: 3px;
+}
+
+.ContainerProduct3{
+    position:absolute;
+    
+}
+
+.ContainerProduct4{
+    position:absolute;
+    
+}
+
+.ContainerProduct5{
+    position:absolute;
+    
+}
+.ContainerProduct6{
+    position:absolute;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <main>
+
         <section>
             <h2>Featured Products</h2>
+
+            <div class = "ContainerProduct1"><! –– Class1 -->
+            <div class="main" id="1"></div>
             <div class="product">
                 <img src="jazz2.png" alt="Product Image">
 				<div class="product-price">
@@ -1520,7 +1578,14 @@ function showSlides(n) {
 			 </div>
 			 </div>
 	
-     
+            </div><! –– Class1 -->
+
+
+
+
+
+            <div class = "ContainerProduct2"><! –– Class2 -->
+             <div class="main" id="2">
             <div class="product">
                 <img src="strat.jpeg" alt="Product Image">
                 <div class="product-price">
@@ -1534,7 +1599,11 @@ function showSlides(n) {
             </div>
 			</div>
 			</div>
-			
+        </div><! –– Class2 -->
+
+
+            <div class = "ContainerProduct3"><! –– Class3 -->
+			<div class="main" id="3"></div>
 			<div class="product">
                 <img src="mustang.jpeg" alt="Product Image">
                 <div class="product-price">
@@ -1548,7 +1617,16 @@ function showSlides(n) {
             </div>
 			 </div>
 			 </div>
-			
+			</div><! –– Class3 -->
+
+
+
+
+
+
+
+             <div class = "ContainerProduct4"><! –– Class4 -->
+             <div class="main" id="4"></div>
 			<div class="product">
                 <img src="tele.jpeg" alt="Product Image">
                 <div class="product-price">
@@ -1562,7 +1640,12 @@ function showSlides(n) {
             </div>
 			 </div>
 			 </div>
-			
+			</div><! –– Class4 -->
+
+
+
+             <div class = "ContainerProduct5"><! –– Class5 -->
+             <div class="main" id="5"></div>
 			<div class="product">
                 <img src="jaguar.jpeg" alt="Product Image">
                 <div class="product-price">
@@ -1576,6 +1659,11 @@ function showSlides(n) {
             </div>
 			 </div>
 			 </div>
+            </div><! –– Class5 -->
+
+
+             <div class = "ContainerProduct6"><! –– Class6 -->
+             <div class="main" id="6"></div>
 			<div class="product">
                 <img src="starcaster.jpeg" alt="Product Image">
                 <div class="product-price">
@@ -1589,8 +1677,11 @@ function showSlides(n) {
             </div>
 			 </div>
 			 </div>
-     
+            </div><! –– Class6 -->
+
         </section>
+
+    
     </main>
 	
 	
